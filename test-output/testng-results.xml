@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56196" started-at="2019-03-16T14:16:28Z" finished-at="2019-03-16T14:17:24Z">
+    <groups>
+    </groups>
+    <test name="Validating Text on the Landing Page" duration-ms="12523" started-at="2019-03-16T14:16:28Z" finished-at="2019-03-16T14:16:40Z">
+      <class name="SurveyMonkey.ValidateTxtOnLandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@1fb6037]" name="initialize" is-config="true" duration-ms="8773" started-at="2019-03-16T14:16:28Z" finished-at="2019-03-16T14:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateTxtOnLandingPage()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@1fb6037]" name="ValidateTxtOnLandingPage" duration-ms="813" started-at="2019-03-16T14:16:36Z" finished-at="2019-03-16T14:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTxtOnLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@1fb6037]" name="tearDown" is-config="true" duration-ms="2315" started-at="2019-03-16T14:16:38Z" finished-at="2019-03-16T14:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.ValidateTxtOnLandingPage -->
+    </test> <!-- Validating Text on the Landing Page -->
+    <test name="Validating Login Link on the Landing Page" duration-ms="8996" started-at="2019-03-16T14:16:40Z" finished-at="2019-03-16T14:16:49Z">
+      <class name="SurveyMonkey.ValidateLoginLink">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.ValidateLoginLink@102734]" name="initialize" is-config="true" duration-ms="6179" started-at="2019-03-16T14:16:40Z" finished-at="2019-03-16T14:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateLoginLink()[pri:0, instance:SurveyMonkey.ValidateLoginLink@102734]" name="ValidateLoginLink" duration-ms="54" started-at="2019-03-16T14:16:47Z" finished-at="2019-03-16T14:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.ValidateLoginLink@102734]" name="tearDown" is-config="true" duration-ms="2093" started-at="2019-03-16T14:16:47Z" finished-at="2019-03-16T14:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.ValidateLoginLink -->
+    </test> <!-- Validating Login Link on the Landing Page -->
+    <test name="Verifying that user has logged in successfully" duration-ms="16066" started-at="2019-03-16T14:16:49Z" finished-at="2019-03-16T14:17:06Z">
+      <class name="SurveyMonkey.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.HomePage@1a07e12]" name="initialize" is-config="true" duration-ms="3957" started-at="2019-03-16T14:16:49Z" finished-at="2019-03-16T14:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePage(java.lang.String, java.lang.String)[pri:0, instance:SurveyMonkey.HomePage@1a07e12]" name="HomePage" duration-ms="9684" started-at="2019-03-16T14:16:53Z" data-provider="getData" finished-at="2019-03-16T14:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumtraining]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.HomePage@1a07e12]" name="tearDown" is-config="true" duration-ms="2070" started-at="2019-03-16T14:17:03Z" finished-at="2019-03-16T14:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.HomePage -->
+    </test> <!-- Verifying that user has logged in successfully -->
+    <test name="Verifying the URL of the application" duration-ms="9025" started-at="2019-03-16T14:17:06Z" finished-at="2019-03-16T14:17:15Z">
+      <class name="SurveyMonkey.VerifyUrl">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.VerifyUrl@172a855]" name="initialize" is-config="true" duration-ms="6351" started-at="2019-03-16T14:17:06Z" finished-at="2019-03-16T14:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateTxtOnLandingPage()[pri:0, instance:SurveyMonkey.VerifyUrl@172a855]" name="ValidateTxtOnLandingPage" duration-ms="13" started-at="2019-03-16T14:17:12Z" finished-at="2019-03-16T14:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTxtOnLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.VerifyUrl@172a855]" name="tearDown" is-config="true" duration-ms="2111" started-at="2019-03-16T14:17:12Z" finished-at="2019-03-16T14:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.VerifyUrl -->
+    </test> <!-- Verifying the URL of the application -->
+    <test name="Verifying that user has landed on landing page" duration-ms="9077" started-at="2019-03-16T14:17:15Z" finished-at="2019-03-16T14:17:24Z">
+      <class name="SurveyMonkey.CheckLandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.CheckLandingPage@19d481b]" name="initialize" is-config="true" duration-ms="6099" started-at="2019-03-16T14:17:15Z" finished-at="2019-03-16T14:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateTxtOnLandingPage()[pri:0, instance:SurveyMonkey.CheckLandingPage@19d481b]" name="ValidateTxtOnLandingPage" duration-ms="442" started-at="2019-03-16T14:17:21Z" finished-at="2019-03-16T14:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTxtOnLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.CheckLandingPage@19d481b]" name="tearDown" is-config="true" duration-ms="2139" started-at="2019-03-16T14:17:22Z" finished-at="2019-03-16T14:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.CheckLandingPage -->
+    </test> <!-- Verifying that user has landed on landing page -->
+  </suite> <!-- Suite -->
+</testng-results>

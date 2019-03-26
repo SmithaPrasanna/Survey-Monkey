@@ -1,0 +1,31 @@
+10:16:34.197 [main] INFO  resources.base - Driver is initialized
+10:16:36.870 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+10:16:37.802 [main] INFO  resources.base - Captured text : true on the Landing Page
+10:16:37.804 [main] INFO  resources.base - 'true' text is displayed on the landing page
+10:16:40.617 [main] INFO  resources.base - Successfully closed the application
+10:16:44.514 [main] INFO  resources.base - Driver is initialized
+10:16:47.116 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+10:16:47.169 [main] INFO  resources.base - Captured text : Get the answers you need - on the Landing Page
+10:16:47.170 [main] INFO  resources.base - 'Get the answers you need' - text is displayed on the landing page
+10:16:49.930 [main] INFO  resources.base - Successfully closed the application
+10:16:53.894 [main] INFO  resources.base - Driver is Initialized
+10:16:56.399 [main] INFO  resources.base - Navigated to : https://www.surveymonkey.com/
+10:16:58.452 [main] INFO  resources.base - Clicked on LOG IN Link
+10:16:58.626 [main] INFO  resources.base - Entered Username as : seleniumtraining
+10:16:58.739 [main] INFO  resources.base - Entered Password as : selenium1234
+10:17:03.581 [main] INFO  resources.base - Clicked on LOG IN button
+10:17:06.002 [main] INFO  resources.base - Successfully closed the application
+10:17:09.798 [main] INFO  resources.base - Driver is initialized
+10:17:12.379 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.VerifyUrl----------------------
+10:17:12.379 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+10:17:12.382 [main] INFO  resources.base - Verifying the URL of the application
+10:17:12.392 [main] INFO  resources.base - Opened correct application
+10:17:15.053 [main] INFO  resources.base - Successfully closed the application
+10:17:15.053 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.VerifyUrl----------------------
+10:17:18.985 [main] INFO  resources.base - Driver is initialized
+10:17:21.313 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+10:17:21.313 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+10:17:21.314 [main] INFO  resources.base - Verifying the landing page is displayed
+10:17:21.755 [main] INFO  resources.base - Landing page is displayed
+10:17:24.290 [main] INFO  resources.base - Successfully closed the application
+10:17:24.290 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------

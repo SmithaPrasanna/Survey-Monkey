@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32517" started-at="2018-12-16T05:23:50Z" finished-at="2018-12-16T05:24:23Z">
+    <groups>
+    </groups>
+    <test name="Validating Text on the Landing Page" duration-ms="10252" started-at="2018-12-16T05:23:50Z" finished-at="2018-12-16T05:24:00Z">
+      <class name="SurveyMonkey.ValidateTxtOnLandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@19ece50]" name="initialize" is-config="true" duration-ms="7753" started-at="2018-12-16T00:23:50Z" finished-at="2018-12-16T00:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="textOnLandingPage()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@19ece50]" name="textOnLandingPage" duration-ms="49" started-at="2018-12-16T00:23:58Z" finished-at="2018-12-16T00:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textOnLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.ValidateTxtOnLandingPage@19ece50]" name="tearDown" is-config="true" duration-ms="2070" started-at="2018-12-16T00:23:58Z" finished-at="2018-12-16T00:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.ValidateTxtOnLandingPage -->
+    </test> <!-- Validating Text on the Landing Page -->
+    <test name="Validating Login Link on the Landing Page" duration-ms="7568" started-at="2018-12-16T05:24:01Z" finished-at="2018-12-16T05:24:08Z">
+      <class name="SurveyMonkey.ValidateLoginLink">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1f4931d]" name="initialize" is-config="true" duration-ms="6964" started-at="2018-12-16T00:24:01Z" finished-at="2018-12-16T00:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="logInLink()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1f4931d]" name="logInLink" duration-ms="64" started-at="2018-12-16T00:24:08Z" finished-at="2018-12-16T00:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1f4931d]" name="tearDown" is-config="true" duration-ms="198" started-at="2018-12-16T00:24:08Z" finished-at="2018-12-16T00:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.ValidateLoginLink -->
+    </test> <!-- Validating Login Link on the Landing Page -->
+    <test name="Verifying that user has logged in successfully" duration-ms="14605" started-at="2018-12-16T05:24:08Z" finished-at="2018-12-16T05:24:23Z">
+      <class name="SurveyMonkey.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.HomePage@178a76]" name="initialize" is-config="true" duration-ms="3638" started-at="2018-12-16T00:24:08Z" finished-at="2018-12-16T00:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SurveyMonkey.HomePage@178a76]" name="basePageNavigation" duration-ms="8315" started-at="2018-12-16T00:24:12Z" data-provider="getData" finished-at="2018-12-16T00:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumtraining]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.HomePage@178a76]" name="tearDown" is-config="true" duration-ms="2319" started-at="2018-12-16T00:24:20Z" finished-at="2018-12-16T00:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SurveyMonkey.HomePage -->
+    </test> <!-- Verifying that user has logged in successfully -->
+  </suite> <!-- Suite -->
+</testng-results>

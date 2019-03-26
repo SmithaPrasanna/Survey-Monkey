@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners> 
+	<listener class-name="SurveyMonkey.listeners" />
+	<listener class-name="resources.ExtentReporterNG" />
+</listeners>
+	<test name="Validating Text on the Landing Page">
+		<classes>
+      		<class name="SurveyMonkey.ValidateTxtOnLandingPage"/>
+		</classes>
+	</test>
+	<test name="Validating Login Link on the Landing Page">
+		<classes>	
+      		<class name="SurveyMonkey.ValidateLoginLink"/>
+      	</classes>
+      </test>
+      <test name="Verifying that user has logged in successfully">
+		<classes>
+			<class name="SurveyMonkey.HomePage"/>
+    	</classes>
+		</test> <!-- Test -->
+		<test name="Verifying the URL of the application">
+		<classes>
+      		<class name="SurveyMonkey.VerifyUrl"/>
+		</classes>
+	</test>
+	<test name="Verifying that user has landed on landing page">
+		<classes>
+      		<class name="SurveyMonkey.CheckLandingPage"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
