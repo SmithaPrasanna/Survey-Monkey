@@ -1,29 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <listeners>
+    <listener class-name="SurveyMonkey.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validating Text on the Landing Page(failed)">
     <classes>
-      <class name="SurveyMonkey.ValidateLoginLink">
-        <methods>
-          <include name="initialize"/>
-          <include name="basePageNavigation"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- SurveyMonkey.ValidateLoginLink -->
-      <class name="SurveyMonkey.HomePage">
-        <methods>
-          <include name="basePageNavigation"/>
-          <include name="tearDown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- SurveyMonkey.HomePage -->
       <class name="SurveyMonkey.ValidateTxtOnLandingPage">
         <methods>
           <include name="initialize"/>
-          <include name="basePageNavigation"/>
+          <include name="ValidateTxtOnLandingPage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- SurveyMonkey.ValidateTxtOnLandingPage -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Validating Text on the Landing Page(failed) -->
+  <test thread-count="5" name="Validating Login Link on the Landing Page(failed)">
+    <classes>
+      <class name="SurveyMonkey.ValidateLoginLink">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="ValidateLoginLink"/>
+        </methods>
+      </class> <!-- SurveyMonkey.ValidateLoginLink -->
+    </classes>
+  </test> <!-- Validating Login Link on the Landing Page(failed) -->
+  <test thread-count="5" name="Verifying that user has logged in successfully(failed)">
+    <classes>
+      <class name="SurveyMonkey.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- SurveyMonkey.HomePage -->
+    </classes>
+  </test> <!-- Verifying that user has logged in successfully(failed) -->
+  <test thread-count="5" name="Verifying the URL of the application(failed)">
+    <classes>
+      <class name="SurveyMonkey.VerifyUrl">
+        <methods>
+          <include name="initialize"/>
+          <include name="ValidateTxtOnLandingPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SurveyMonkey.VerifyUrl -->
+    </classes>
+  </test> <!-- Verifying the URL of the application(failed) -->
+  <test thread-count="5" name="Verifying that user has landed on landing page(failed)">
+    <classes>
+      <class name="SurveyMonkey.CheckLandingPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="ValidateTxtOnLandingPage"/>
+        </methods>
+      </class> <!-- SurveyMonkey.CheckLandingPage -->
+    </classes>
+  </test> <!-- Verifying that user has landed on landing page(failed) -->
 </suite> <!-- Failed suite [Suite] -->

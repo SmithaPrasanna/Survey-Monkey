@@ -53,7 +53,7 @@ public class ExtentReporterNG implements IReporter {
                 for (String group : result.getMethod().getGroups())
                     test.assignCategory(group);
  
-                String message = "Test " + status.toString().toLowerCase() + "ed";
+                String message = "Test " + status.toString().toLowerCase() + "eded";
  
                 if (result.getThrowable() != null)
                     message = result.getThrowable().getMessage();

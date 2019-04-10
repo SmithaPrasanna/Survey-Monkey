@@ -29,3 +29,179 @@
 10:17:21.755 [main] INFO  resources.base - Landing page is displayed
 10:17:24.290 [main] INFO  resources.base - Successfully closed the application
 10:17:24.290 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+11:50:00.452 [main] INFO  resources.base - Driver is initialized
+11:50:03.770 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:50:04.325 [main] INFO  resources.base - Captured text : true on the Landing Page
+11:50:04.327 [main] INFO  resources.base - 'true' text is displayed on the landing page
+11:50:06.946 [main] INFO  resources.base - Successfully closed the application
+11:50:10.518 [main] INFO  resources.base - Driver is initialized
+11:50:12.904 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:50:13.954 [main] INFO  resources.base - Captured text : Get the answers you need - on the Landing Page
+11:50:13.954 [main] INFO  resources.base - 'Get the answers you need' - text is displayed on the landing page
+11:50:16.503 [main] INFO  resources.base - Successfully closed the application
+11:50:20.023 [main] INFO  resources.base - Driver is Initialized
+11:50:22.349 [main] INFO  resources.base - Navigated to : https://www.surveymonkey.com/
+11:50:24.079 [main] INFO  resources.base - Clicked on LOG IN Link
+11:50:24.356 [main] INFO  resources.base - Entered Username as : seleniumtraining
+11:50:24.538 [main] INFO  resources.base - Entered Password as : selenium1234
+11:50:30.041 [main] INFO  resources.base - Clicked on LOG IN button
+11:50:32.894 [main] INFO  resources.base - Successfully closed the application
+11:50:36.536 [main] INFO  resources.base - Driver is initialized
+11:50:41.078 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.VerifyUrl----------------------
+11:50:41.079 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:50:41.082 [main] INFO  resources.base - Verifying the URL of the application
+11:50:41.102 [main] INFO  resources.base - Opened correct application
+11:50:44.086 [main] INFO  resources.base - Successfully closed the application
+11:50:44.086 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.VerifyUrl----------------------
+11:50:47.640 [main] INFO  resources.base - Driver is initialized
+11:50:50.133 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+11:50:50.134 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:50:50.137 [main] INFO  resources.base - Verifying the landing page is displayed
+11:50:50.674 [main] INFO  resources.base - Landing page is displayed
+11:50:53.271 [main] INFO  resources.base - Successfully closed the application
+11:50:53.272 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+12:04:37.401 [main] INFO  resources.base - Driver is initialized
+12:04:46.285 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+12:04:46.286 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+12:04:46.331 [main] INFO  resources.base - Verifying the landing page is displayed
+12:04:46.396 [main] INFO  resources.base - Landing page is displayed
+12:04:46.600 [main] INFO  resources.base - Successfully closed the application
+12:04:46.600 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+14:10:44.854 [main] INFO  resources.base - Driver is Initialized
+14:10:47.207 [main] INFO  resources.base - Navigated to : https://www.surveymonkey.com/
+14:10:49.141 [main] INFO  resources.base - Clicked on LOG IN Link
+14:10:49.382 [main] INFO  resources.base - Entered Username as : seleniumtraining
+14:10:49.646 [main] INFO  resources.base - Entered Password as : selenium1234
+14:10:53.699 [main] INFO  resources.base - Clicked on LOG IN button
+14:10:55.814 [main] INFO  resources.base - Successfully closed the application
+14:14:56.880 [main] INFO  resources.base - Driver is initialized
+14:14:59.477 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:14:59.477 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:14:59.535 [main] INFO  resources.base - Verifying the landing page is displayed
+14:14:59.994 [main] INFO  resources.base - Landing page is displayed
+14:15:00.213 [main] INFO  resources.base - Successfully closed the application
+14:15:00.213 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+14:25:09.354 [main] INFO  resources.base - Driver is initialized
+14:25:12.131 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:25:12.131 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:25:12.193 [main] INFO  resources.base - Verifying the landing page is displayed
+14:25:12.674 [main] INFO  resources.base - Landing page is displayed
+14:25:12.907 [main] INFO  resources.base - Successfully closed the application
+14:25:12.908 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+14:35:03.700 [main] INFO  resources.base - Driver is initialized
+14:35:06.372 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:35:06.372 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:38:08.264 [main] INFO  resources.base - Driver is initialized
+14:38:10.633 [main] INFO  resources.base - Driver is initialized
+14:38:11.605 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:38:11.606 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:38:13.610 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:38:13.610 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:38:32.730 [main] INFO  resources.base - Driver is initialized
+14:38:35.801 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:38:35.802 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:38:44.645 [main] INFO  resources.base - Verifying the landing page is displayed
+14:40:30.792 [main] INFO  resources.base - Driver is initialized
+14:40:33.523 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+14:40:33.523 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+14:40:33.585 [main] INFO  resources.base - Verifying the landing page is displayed
+14:40:34.162 [main] INFO  resources.base - Landing page is displayed
+14:40:34.352 [main] INFO  resources.base - Successfully closed the application
+14:40:34.352 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+23:42:59.615 [main] INFO  resources.base - Successfully closed the application
+23:44:50.445 [main] INFO  resources.base - Successfully closed the application
+23:55:32.287 [main] INFO  resources.base - Successfully closed the application
+00:00:30.043 [main] INFO  resources.base - Successfully closed the application
+00:01:51.917 [main] INFO  resources.base - Successfully closed the application
+10:25:37.911 [main] INFO  resources.base - Successfully closed the application
+10:29:36.365 [main] INFO  resources.base - Successfully closed the application
+10:32:57.256 [main] INFO  resources.base - Successfully closed the application
+10:36:14.186 [main] INFO  resources.base - Successfully closed the application
+10:41:00.155 [main] INFO  resources.base - Successfully closed the application
+10:44:04.395 [main] INFO  resources.base - Successfully closed the application
+10:56:33.030 [main] INFO  resources.base - Successfully closed the application
+10:58:00.336 [main] INFO  resources.base - Successfully closed the application
+11:57:31.620 [main] INFO  resources.base - Driver is initialized
+11:58:05.921 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:58:06.638 [main] INFO  resources.base - Captured text : true on the Landing Page
+11:58:06.643 [main] INFO  resources.base - 'true' text is displayed on the landing page
+11:58:10.049 [main] INFO  resources.base - Successfully closed the application
+11:58:14.368 [main] INFO  resources.base - Driver is initialized
+11:58:16.910 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:58:17.473 [main] INFO  resources.base - Captured text : Get the answers you need - on the Landing Page
+11:58:17.474 [main] INFO  resources.base - 'Get the answers you need' - text is displayed on the landing page
+11:58:20.236 [main] INFO  resources.base - Successfully closed the application
+11:58:26.333 [main] INFO  resources.base - Driver is Initialized
+11:58:38.604 [main] INFO  resources.base - Navigated to : https://www.surveymonkey.com/
+11:58:41.402 [main] INFO  resources.base - Clicked on LOG IN Link
+11:58:41.779 [main] INFO  resources.base - Entered Username as : seleniumtraining
+11:58:41.964 [main] INFO  resources.base - Entered Password as : selenium1234
+11:58:46.893 [main] INFO  resources.base - Clicked on LOG IN button
+11:58:47.742 [main] INFO  resources.base - Successfully closed the application
+11:58:51.582 [main] INFO  resources.base - Driver is initialized
+11:58:55.631 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.VerifyUrl----------------------
+11:58:55.632 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:58:55.634 [main] INFO  resources.base - Verifying the URL of the application
+11:58:56.279 [main] INFO  resources.base - Opened correct application
+11:58:58.891 [main] INFO  resources.base - Successfully closed the application
+11:58:58.891 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.VerifyUrl----------------------
+11:59:02.831 [main] INFO  resources.base - Driver is initialized
+11:59:05.458 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+11:59:05.458 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+11:59:05.461 [main] INFO  resources.base - Verifying the landing page is displayed
+11:59:05.991 [main] INFO  resources.base - Landing page is displayed
+11:59:06.644 [main] INFO  resources.base - Successfully closed the application
+11:59:06.645 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+11:59:39.943 [main] INFO  resources.base - Successfully closed the application
+12:37:29.639 [main] INFO  resources.base - Driver is initialized
+12:40:49.664 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+12:40:49.875 [main] INFO  resources.base - Captured text : true on the Landing Page
+12:40:49.880 [main] INFO  resources.base - 'true' text is displayed on the landing page
+12:40:52.758 [main] INFO  resources.base - Successfully closed the application
+12:42:19.646 [main] INFO  resources.base - Driver is initialized
+12:42:30.768 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+12:43:03.503 [main] INFO  resources.base - Captured text : Get the answers you need - on the Landing Page
+12:43:03.503 [main] INFO  resources.base - 'Get the answers you need' - text is displayed on the landing page
+12:43:06.158 [main] INFO  resources.base - Successfully closed the application
+12:43:10.277 [main] INFO  resources.base - Driver is Initialized
+12:43:31.979 [main] INFO  resources.base - Navigated to : https://www.surveymonkey.com/
+12:43:32.094 [main] INFO  resources.base - Clicked on LOG IN Link
+12:44:04.525 [main] INFO  resources.base - Entered Username as : seleniumtraining
+12:44:04.667 [main] INFO  resources.base - Entered Password as : selenium1234
+12:45:26.707 [main] INFO  resources.base - Clicked on LOG IN button
+12:45:29.412 [main] INFO  resources.base - Successfully closed the application
+12:45:33.282 [main] INFO  resources.base - Driver is initialized
+12:45:44.246 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.VerifyUrl----------------------
+12:45:44.247 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+12:45:44.252 [main] INFO  resources.base - Verifying the URL of the application
+12:45:44.319 [main] INFO  resources.base - Opened correct application
+12:45:45.873 [main] INFO  resources.base - Successfully closed the application
+12:45:45.873 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.VerifyUrl----------------------
+12:45:50.851 [main] INFO  resources.base - Driver is initialized
+12:45:59.274 [main] INFO  resources.base - ----------------------Starting of the logs for class : SurveyMonkey.CheckLandingPage----------------------
+12:45:59.274 [main] INFO  resources.base - Application : https://www.surveymonkey.com/ is opened
+12:45:59.279 [main] INFO  resources.base - Verifying the landing page is displayed
+12:45:59.876 [main] INFO  resources.base - Landing page is displayed
+12:46:04.518 [main] INFO  resources.base - Successfully closed the application
+12:46:04.519 [main] INFO  resources.base - ----------------------End of logs for class name : SurveyMonkey.CheckLandingPage----------------------
+12:47:29.896 [main] INFO  resources.base - Successfully closed the application
+14:00:26.080 [main] INFO  resources.base - Successfully closed the application
+22:04:55.641 [main] INFO  resources.base - Successfully closed the application
+22:08:23.142 [main] INFO  resources.base - Successfully closed the application
+13:18:55.294 [main] INFO  resources.base - Successfully closed the application
+17:30:28.246 [main] INFO  resources.base - Successfully closed the application
+17:34:00.640 [main] INFO  resources.base - Successfully closed the application
+17:38:09.986 [main] INFO  resources.base - Successfully closed the application
+17:50:49.730 [main] INFO  resources.base - Successfully closed the application
+17:51:52.635 [main] INFO  resources.base - Successfully closed the application
+17:54:18.714 [main] INFO  resources.base - Successfully closed the application
+17:57:52.187 [main] INFO  resources.base - Successfully closed the application
+21:44:42.226 [main] INFO  resources.base - Successfully closed the application
+21:45:52.226 [main] INFO  resources.base - Successfully closed the application
+21:51:33.103 [main] INFO  resources.base - Successfully closed the application
+21:53:10.514 [main] INFO  resources.base - Successfully closed the application
+21:56:42.204 [main] INFO  resources.base - Successfully closed the application
+21:58:09.649 [main] INFO  resources.base - Successfully closed the application
+21:58:38.092 [main] INFO  resources.base - Successfully closed the application
+22:00:41.544 [main] INFO  resources.base - Successfully closed the application
+22:02:25.164 [main] INFO  resources.base - Successfully closed the application

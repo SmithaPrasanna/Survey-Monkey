@@ -30,4 +30,15 @@
       		<class name="SurveyMonkey.CheckLandingPage"/>
 		</classes>
 	</test>
+	<test name="Validating Landing page Smitha">
+		<classes>	
+      		<class name="SurveyMonkey.checkLandpage"/>
+      	</classes>
+      </test>
+      <test name="Validating Home page Smitha">
+		<classes>	
+      		<class name="SurveyMonkey.LoginTest"/>
+      	</classes>
+      </test>
+      
 </suite> <!-- Suite -->
