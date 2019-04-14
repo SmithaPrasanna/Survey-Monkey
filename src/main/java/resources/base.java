@@ -30,7 +30,7 @@ public class base {
 		// Loading the properties file
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\SurveyMonkey\\Copy of SeleniumFramework\\src\\main\\java\\resources\\config.properties");
+				"C:\\SurveyMonkey\\Survey-Monkey\\src\\main\\java\\resources\\config.properties");
 		prop.load(fis);
 
 		String browserName = prop.getProperty("browser");

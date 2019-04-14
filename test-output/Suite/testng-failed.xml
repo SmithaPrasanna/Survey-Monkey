@@ -60,4 +60,27 @@
       </class> <!-- SurveyMonkey.CheckLandingPage -->
     </classes>
   </test> <!-- Verifying that user has landed on landing page(failed) -->
+  <test thread-count="5" name="Validating Landing page Smitha(failed)">
+    <classes>
+      <class name="SurveyMonkey.checkLandpage">
+        <methods>
+          <include name="openPage"/>
+          <include name="checkText"/>
+          <include name="checkurl"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SurveyMonkey.checkLandpage -->
+    </classes>
+  </test> <!-- Validating Landing page Smitha(failed) -->
+  <test thread-count="5" name="Validating Home page Smitha(failed)">
+    <classes>
+      <class name="SurveyMonkey.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="AppLogin"/>
+        </methods>
+      </class> <!-- SurveyMonkey.LoginTest -->
+    </classes>
+  </test> <!-- Validating Home page Smitha(failed) -->
 </suite> <!-- Failed suite [Suite] -->

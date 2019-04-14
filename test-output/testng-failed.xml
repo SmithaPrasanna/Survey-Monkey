@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SurveyMonkey.LoginTest">
+      <class name="SurveyMonkey.ValidateLoginLink">
         <methods>
-          <include name="beforeTest"/>
+          <include name="initialize"/>
           <include name="tearDown"/>
-          <include name="AppLogin" invocation-numbers="1"/>
+          <include name="ValidateLoginLink"/>
         </methods>
-      </class> <!-- SurveyMonkey.LoginTest -->
+      </class> <!-- SurveyMonkey.ValidateLoginLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

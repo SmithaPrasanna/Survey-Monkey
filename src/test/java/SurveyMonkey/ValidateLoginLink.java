@@ -32,7 +32,7 @@ public class ValidateLoginLink extends base{
 			String getTxt = lp.getAnswerText().getText();
 			log.info("Captured text : " + getTxt + " - on the Landing Page");
 			//Verify that 'Get the answers you need' text is present on Landing page
-			Assert.assertEquals("Get the answers you need", getTxt);
+			Assert.assertEquals("Get the answers you needs", getTxt);
 			log.info("'" +getTxt+"'" + " - text is displayed on the landing page");
 		}
 		

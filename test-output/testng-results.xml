@@ -1,53 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21796" started-at="2019-04-10T02:02:03Z" finished-at="2019-04-10T02:02:25Z">
+  <suite name="Default suite" duration-ms="8896" started-at="2019-04-11T15:01:12Z" finished-at="2019-04-11T15:01:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21796" started-at="2019-04-10T02:02:03Z" finished-at="2019-04-10T02:02:25Z">
-      <class name="SurveyMonkey.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SurveyMonkey.LoginTest@fa7c39]" name="beforeTest" is-config="true" duration-ms="10545" started-at="2019-04-10T02:02:03Z" finished-at="2019-04-10T02:02:13Z">
+    <test name="Default test" duration-ms="8896" started-at="2019-04-11T15:01:12Z" finished-at="2019-04-11T15:01:21Z">
+      <class name="SurveyMonkey.ValidateLoginLink">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1c2284a]" name="initialize" is-config="true" duration-ms="8573" started-at="2019-04-11T15:01:12Z" finished-at="2019-04-11T15:01:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="AppLogin(java.lang.String, java.lang.String)[pri:0, instance:SurveyMonkey.LoginTest@fa7c39]" name="AppLogin" duration-ms="1689" started-at="2019-04-10T02:02:15Z" data-provider="dp" finished-at="2019-04-10T02:02:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seltr]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[s]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="ValidateLoginLink()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1c2284a]" name="ValidateLoginLink" duration-ms="201" started-at="2019-04-11T15:01:21Z" finished-at="2019-04-11T15:01:21Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...s> but was:<...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...s> but was:<...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at SurveyMonkey.ValidateLoginLink.ValidateLoginLink(ValidateLoginLink.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppLogin -->
-        <test-method status="PASS" signature="AppLogin(java.lang.String, java.lang.String)[pri:0, instance:SurveyMonkey.LoginTest@fa7c39]" name="AppLogin" duration-ms="6194" started-at="2019-04-10T02:02:16Z" data-provider="dp" finished-at="2019-04-10T02:02:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seleniumtraining]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[selenium1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.LoginTest@fa7c39]" name="tearDown" is-config="true" duration-ms="2191" started-at="2019-04-10T02:02:22Z" finished-at="2019-04-10T02:02:25Z">
+        </test-method> <!-- ValidateLoginLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SurveyMonkey.ValidateLoginLink@1c2284a]" name="tearDown" is-config="true" duration-ms="99" started-at="2019-04-11T15:01:21Z" finished-at="2019-04-11T15:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SurveyMonkey.LoginTest -->
+      </class> <!-- SurveyMonkey.ValidateLoginLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
